@@ -53,11 +53,7 @@ a:hover {
     background-color: yellow;
 }
 
-main{
-    width: 960px;
-    background-color: #ffffff;
-    margin: auto;
-}
+
 .aboutme {
     color:#4aaaa5;
     width: 960px;
@@ -79,20 +75,34 @@ main {
     border-color: #cccccc;
     border-bottom: 4px solid #eee;
     background: #ffffff;
-    padding-top: 10px;
+    padding: 25px;
     overflow: auto;
+    margin: auto;
 }
+
+.title {
+    font-size: 32px;
+    padding: 20px 0px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ddd;
+}
+
 .container {
     position: relative;
     font-family: Arial;
+    float: left;
+    margin: 0 25px 25px 0;
 }
 
-.text-block {
+.img-banner {
     position: absolute;
     bottom: 10px;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 0;
+    width: 100%;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-weight: bold;
 }
 
 footer{
@@ -102,10 +112,16 @@ footer{
     font-size: 10;
     width: 100%;
     background-color: #666666;
-    
+}
 
+.pic-left{
+    width: 300px;   
+}
+.pic-right{
+    width: 300px;
 }
 
 #photo {transform: rotate(270deg);
     margin-right: 8px;
 }
+
